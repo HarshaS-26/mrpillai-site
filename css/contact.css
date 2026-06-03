@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    background:
+        radial-gradient(circle at top left, #dbeafe 0%, transparent 28%),
+        radial-gradient(circle at bottom right, #c7d2fe 0%, transparent 25%),
+        linear-gradient(135deg, #eef4ff, #f8fbff);
+
+    color: #1e293b;
+    overflow-x: hidden;
+}
+
+body::before {
+
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    background-image: url('../assets/images/contact.svg');
+
+    background-repeat: repeat;
+    background-position: right top;
+
+    background-size: 700px;
+
+    opacity: 0.225;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+/* TOP */
+
+.contact-top {
+    text-align: center;
+    padding: 35px 0 18px;
+}
+
+.contact-top h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.contact-top p {
+    color: #64748b;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* SECTION */
+
+.contact-section {
+    padding: 12px 0 50px;
+    position: relative;
+}
+
+/* GLOW EFFECT */
+
+.contact-section::before {
+    content: "";
+
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    background: rgba(59, 130, 246, 0.12);
+
+    filter: blur(100px);
+
+    top: -100px;
+    right: -120px;
+
+    z-index: 0;
+}
+
+.contact-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* CARD */
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.72);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    border-radius: 30px;
+
+    padding: 34px;
+
+    box-shadow:
+        0 10px 40px rgba(37, 99, 235, 0.08),
+        0 2px 10px rgba(15, 23, 42, 0.04);
+
+    height: 100%;
+
+    transition: 0.35s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 20px 50px rgba(37, 99, 235, 0.12),
+        0 6px 16px rgba(15, 23, 42, 0.06);
+}
+
+/* LEFT SIDE */
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-icon {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(135deg, #102249, #3b82f6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    box-shadow:
+        0 10px 24px rgba(37, 99, 235, 0.22);
+}
+
+.info-icon i {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.info-text h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.info-text p,
+.info-text a {
+    color: #5b6b84;
+    font-size: 0.97rem;
+    line-height: 1.8;
+    margin: 0;
+    text-decoration: none;
+}
+
+.info-text a:hover {
+    color: #2563eb;
+}
+
+/* FORM */
+
+.form-title {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 24px;
+}
+
+.form-control {
+    border: none;
+
+    background: rgba(248, 250, 252, 0.9);
+
+    border-radius: 16px;
+
+    padding: 15px 18px;
+
+    font-size: 0.96rem;
+
+    color: #0f172a;
+
+    transition: 0.3s ease;
+
+    box-shadow:
+        inset 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.form-control:focus {
+    background: #ffffff;
+
+    box-shadow:
+        0 0 0 4px rgba(37, 99, 235, 0.10);
+
+    border: none;
+}
+
+textarea.form-control {
+    min-height: 110px;
+    resize: none;
+}
+
+/* BUTTON */
+
+.submit-btn {
+    background:
+        linear-gradient(135deg, #102249, #1d4ed8);
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 13px 32px;
+
+    border-radius: 50px;
+
+    font-weight: 700;
+
+    transition: 0.35s ease;
+
+    box-shadow:
+        0 12px 24px rgba(37, 99, 235, 0.22);
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 18px 35px rgba(37, 99, 235, 0.30);
+}
+
+/* MOBILE */
+
+@media(max-width:991px) {
+
+    .contact-top {
+        padding: 24px 0 14px;
+    }
+
+    .contact-top h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-card {
+        padding: 26px;
+    }
+
+    .col-lg-4 {
+        margin-bottom: 18px;
+    }
+
+}
