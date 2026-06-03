@@ -212,28 +212,36 @@ body {
 
 @media(max-width:991px) {
 
-    .overview-card {
-        padding: 28px;
+    .overview-section {
+        width: 96%;
+        padding: 20px 0 0;
+    }
+
+    .biography-section {
+        width: 96%;
+        padding-top: 20px;
+    }
+
+    .overview-card,
+    .bio-block {
+        padding: 20px 16px;
     }
 
     .overview-content {
         padding-left: 0;
-        margin-top: 30px;
-    }
-
-    .overview-content h1 {
-        font-size: 2rem;
-    }
-
-    .biography-section {
-        width: 92%;
-    }
-
-    .bio-block {
-        padding: 28px 22px;
+        margin-top: 20px;
     }
 
     .bio-block h2 {
         font-size: 1.4rem;
+    }
+
+    .bio-block p,
+    .overview-content p {
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        overflow-wrap: break-word;
+        font-size: 0.97rem;
     }
 }

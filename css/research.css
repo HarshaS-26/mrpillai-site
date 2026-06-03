@@ -1,5 +1,4 @@
 /* RESEARCH PAGE */
-
 * {
     margin: 0;
     padding: 0;
@@ -14,17 +13,10 @@ body {
 }
 
 /* HERO */
-
 .research-hero {
     position: relative;
     padding: 60px 0 50px;
-
-    background:
-        linear-gradient(135deg,
-            #0f172a 0%,
-            #172554 60%,
-            #0f766e 100%);
-
+    background: linear-gradient(135deg, #0f172a 0%, #172554 60%, #0f766e 100%);
     overflow: hidden;
 }
 
@@ -65,20 +57,15 @@ body {
 }
 
 /* FILTER TABS */
-
 .research-tabs {
     position: sticky;
     top: 78px;
     z-index: 100;
-
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(12px);
-
     padding: 18px 0;
-
     border-bottom: 1px solid rgba(15, 23, 42, 0.06);
     margin-top: -28px;
-
     z-index: 5;
 }
 
@@ -91,45 +78,30 @@ body {
 
 .research-tab {
     text-decoration: none;
-
     padding: 11px 22px;
     border-radius: 50px;
-
     background: #ffffff;
-
     color: #334155;
     font-weight: 600;
     font-size: 0.92rem;
-
     transition: 0.35s ease;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
-
-    box-shadow:
-        0 6px 18px rgba(15, 23, 42, 0.04);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
 }
 
 .research-tab:hover {
     transform: translateY(-2px);
-
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
-
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
     color: #ffffff;
 }
 
 .research-tab.active {
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
-
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
     color: #ffffff;
-
-    box-shadow:
-        0 10px 25px rgba(37, 99, 235, 0.25);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
 }
 
 /* SECTION COMMON */
-
 .research-section {
     padding: 40px 0;
     scroll-margin-top: 180px;
@@ -139,8 +111,6 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
-
-
 
 .section-heading h2 {
     font-size: 2.1rem;
@@ -158,12 +128,8 @@ body {
 }
 
 /* AWARDS SECTION */
-
 .awards-section {
-    background:
-        linear-gradient(to bottom,
-            #f8fbff,
-            #eef5ff);
+    background: linear-gradient(to bottom, #f8fbff, #eef5ff);
 }
 
 .timeline {
@@ -176,11 +142,7 @@ body {
     content: '';
     position: absolute;
     width: 5px;
-    background:
-        linear-gradient(to bottom,
-            #2563eb,
-            #14b8a6);
-
+    background: linear-gradient(to bottom, #2563eb, #14b8a6);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -207,15 +169,11 @@ body {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-
     background: #ffffff;
     border: 5px solid #f59e0b;
-
     top: 36px;
     z-index: 5;
-
-    box-shadow:
-        0 0 0 8px rgba(245, 158, 11, 0.12);
+    box-shadow: 0 0 0 8px rgba(245, 158, 11, 0.12);
 }
 
 .timeline-item.left .timeline-dot {
@@ -228,15 +186,10 @@ body {
 
 .award-card {
     background: #ffffff;
-
     padding: 28px;
     border-radius: 26px;
-
-    box-shadow:
-        0 12px 35px rgba(15, 23, 42, 0.06);
-
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.06);
     transition: 0.35s ease;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
 }
 
@@ -258,15 +211,10 @@ body {
 
 .award-year {
     display: inline-block;
-
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
-
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
     color: #ffffff;
-
     padding: 8px 16px;
     border-radius: 50px;
-
     font-size: 0.85rem;
     font-weight: 700;
     margin-bottom: 0;
@@ -289,29 +237,18 @@ body {
 }
 
 /* HONORS SECTION */
-
 .honors-section {
     background: #ffffff;
 }
 
 .honor-card {
-    background:
-        linear-gradient(145deg,
-            #ffffff,
-            #f8fbff);
-
+    background: linear-gradient(145deg, #ffffff, #f8fbff);
     border-radius: 28px;
     padding: 32px;
-
     height: 100%;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
-
-    box-shadow:
-        0 12px 35px rgba(15, 23, 42, 0.05);
-
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.05);
     transition: 0.35s ease;
-
     position: relative;
     overflow: hidden;
 }
@@ -323,12 +260,7 @@ body {
     left: 0;
     width: 100%;
     height: 5px;
-
-    background:
-        linear-gradient(90deg,
-            #2563eb,
-            #14b8a6,
-            #7c3aed);
+    background: linear-gradient(90deg, #2563eb, #14b8a6, #7c3aed);
 }
 
 .honor-card:hover {
@@ -338,18 +270,11 @@ body {
 .honor-icon {
     width: 72px;
     height: 72px;
-
     border-radius: 22px;
-
-    background:
-        linear-gradient(135deg,
-            rgba(37, 99, 235, 0.12),
-            rgba(20, 184, 166, 0.12));
-
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(20, 184, 166, 0.12));
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-bottom: 24px;
 }
 
@@ -375,7 +300,6 @@ body {
     position: relative;
     padding-left: 22px;
     margin-bottom: 16px;
-
     color: #475569;
     line-height: 1.8;
 }
@@ -383,39 +307,25 @@ body {
 .honor-list li::before {
     content: '';
     position: absolute;
-
     width: 10px;
     height: 10px;
-
     border-radius: 50%;
-
     background: #14b8a6;
-
     left: 0;
     top: 10px;
 }
 
 /* PATENTS SECTION */
-
 .patents-section {
-    background:
-        linear-gradient(to bottom,
-            #f8fbff,
-            #eef5ff);
+    background: linear-gradient(to bottom, #f8fbff, #eef5ff);
 }
 
 .patent-card {
     background: #ffffff;
-
     border-radius: 30px;
-
     padding: 34px;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
-
-    box-shadow:
-        0 15px 40px rgba(15, 23, 42, 0.06);
-
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.06);
     transition: 0.35s ease;
 }
 
@@ -428,29 +338,21 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
     gap: 12px;
-
     margin-bottom: 20px;
 }
 
 .patent-number {
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
-
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
     color: #ffffff;
-
     padding: 8px 18px;
-
     border-radius: 50px;
-
     font-size: 0.82rem;
     font-weight: 700;
 }
 
 .patent-date {
     color: #64748b;
-
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -458,67 +360,46 @@ body {
 .patent-card h3 {
     font-size: 1.45rem;
     font-weight: 800;
-
     color: #0f172a;
-
     line-height: 1.6;
-
     margin-bottom: 26px;
 }
 
 .inventor-box {
     background: #f8fbff;
-
     border-radius: 22px;
-
     padding: 22px;
-
     margin-bottom: 28px;
-
     border: 1px solid rgba(37, 99, 235, 0.06);
 }
 
 .inventor-title {
     display: inline-block;
-
     margin-bottom: 12px;
-
     font-size: 0.82rem;
     font-weight: 700;
-
     color: #2563eb;
-
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .inventor-box p {
     margin: 0;
-
     color: #475569;
-
     line-height: 1.9;
 }
 
 .patent-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 18px;
 }
 
 .patent-country {
-    background:
-        linear-gradient(145deg,
-            #f8fbff,
-            #ffffff);
-
+    background: linear-gradient(145deg, #f8fbff, #ffffff);
     border-radius: 22px;
-
     padding: 20px;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
-
     transition: 0.3s ease;
 }
 
@@ -530,18 +411,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     gap: 10px;
-
     margin-bottom: 12px;
 }
 
 .country-top h6 {
     margin: 0;
-
     font-size: 1rem;
     font-weight: 800;
-
     color: #0f172a;
 }
 
@@ -561,53 +438,38 @@ body {
 .status {
     font-size: 0.72rem;
     font-weight: 700;
-
     padding: 6px 12px;
-
     border-radius: 50px;
-
     color: #ffffff;
 }
 
 .status.granted {
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
 }
 
 .status.pending {
-    background:
-        linear-gradient(135deg, #f59e0b, #f97316);
+    background: linear-gradient(135deg, #f59e0b, #f97316);
 }
 
 .patent-country p {
     color: #64748b;
-
     font-size: 0.92rem;
-
     line-height: 1.7;
-
     margin-bottom: 16px;
 }
 
 .patent-id {
     background: #eef4ff;
-
     color: #1d4ed8;
-
     padding: 10px 14px;
-
     border-radius: 14px;
-
     font-size: 0.85rem;
     font-weight: 700;
-
     word-break: break-word;
 }
 
 /* MOBILE */
-
 @media(max-width:991px) {
-
     .patent-grid {
         grid-template-columns: 1fr;
     }
@@ -619,85 +481,55 @@ body {
     .patent-card h3 {
         font-size: 1.2rem;
     }
-
 }
 
 /* FUNDING SECTION */
-
 .funding-section {
     padding: 60px 0 70px;
-    background:
-        linear-gradient(to bottom,
-            #f8fbff,
-            #eef5ff);
+    background: linear-gradient(to bottom, #f8fbff, #eef5ff);
 }
 
-
 /* WRAPPER */
-
 .funding-table-wrapper {
     background: #ffffff;
-
     border-radius: 24px;
     overflow: hidden;
-
     border: 1px solid rgba(37, 99, 235, 0.08);
-
-    box-shadow:
-        0 10px 30px rgba(15, 23, 42, 0.05);
-
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
     margin-top: 18px;
 }
 
 /* CATEGORY HEADER */
-
 .modern-category {
-
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
     padding-bottom: 18px;
     margin-bottom: 18px;
-
     border-bottom: 1px solid rgba(15, 23, 42, 0.08);
 }
 
 .modern-category h3 {
-
     font-size: 1.6rem;
     font-weight: 800;
-
     color: #0f172a;
-
     margin-bottom: 8px;
 }
 
 .modern-category p {
-
     margin: 0;
-
     color: #64748b;
-
     font-size: 0.96rem;
-
     max-width: 700px;
-
     line-height: 1.7;
 }
 
 .funding-years {
-
     font-size: 1rem;
-
     font-weight: 700;
-
     color: #2563eb;
-
     background: #eff6ff;
-
     padding: 10px 18px;
-
     border-radius: 14px;
 }
 
@@ -706,77 +538,58 @@ body {
 }
 
 /* MOBILE */
-
 @media(max-width:768px) {
-
     .modern-category {
-
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
     }
-
 }
 
 /* TABLE */
-
 .funding-table {
     margin-bottom: 0;
     min-width: 1200px;
 }
 
 .funding-table thead {
-    background:
-        linear-gradient(135deg, #0f172a, #1e3a8a);
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
 }
 
 .funding-table thead th {
-
     color: #ffffff;
     font-weight: 700;
-
     padding: 22px 18px;
-
     border: none;
-
     font-size: 0.92rem;
     letter-spacing: 0.3px;
-
     vertical-align: middle;
-
     position: sticky;
     top: 0;
     z-index: 2;
-
-    background:
-        linear-gradient(135deg, #0f172a, #1e3a8a);
-
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
 }
 
 .funding-table tbody td {
     padding: 22px 18px;
     vertical-align: top;
     border-color: #edf2f7;
-
     font-size: 0.95rem;
     line-height: 1.7;
     color: #334155;
 }
 
 /* ALTERNATE ROW */
-
 .funding-table tbody tr:nth-child(even) {
     background: #f9fbff;
 }
 
 /* HOVER */
-
 .funding-table tbody tr:hover {
     background: #eef6ff;
 }
 
 /* TITLE */
-
 .grant-title {
     font-weight: 700;
     color: #0f172a;
@@ -784,24 +597,17 @@ body {
 }
 
 /* ROLE */
-
 .role-badge {
     display: inline-block;
-
-    background:
-        linear-gradient(135deg, #2563eb, #14b8a6);
-
+    background: linear-gradient(135deg, #2563eb, #14b8a6);
     color: #ffffff;
-
     padding: 7px 14px;
     border-radius: 50px;
-
     font-size: 0.82rem;
     font-weight: 700;
 }
 
 /* AGENCY */
-
 .agency-name {
     font-weight: 600;
     color: #0f172a;
@@ -814,39 +620,28 @@ body {
 }
 
 /* DURATION */
-
 .duration-badge {
     background: #eff6ff;
     color: #1d4ed8;
-
     padding: 8px 14px;
     border-radius: 12px;
-
     font-weight: 700;
     display: inline-block;
 }
 
 /* OUTCOME */
-
 .outcome-box {
     max-width: 420px;
 }
 
-
-
-
 .read-more-btn {
     display: none;
-
     border: none;
     background: none;
-
     color: #2563eb;
     font-weight: 700;
-
     padding: 0;
     margin-top: 10px;
-
     cursor: pointer;
 }
 
@@ -873,13 +668,10 @@ body {
 .read-more-btn {
     border: none;
     background: none;
-
     color: #2563eb;
     font-weight: 700;
-
     padding: 0;
     margin-top: 10px;
-
     cursor: pointer;
 }
 
@@ -888,7 +680,6 @@ body {
 }
 
 /* FULL TEXT */
-
 .full-outcome {
     display: none;
     margin-top: 12px;
@@ -896,19 +687,14 @@ body {
 }
 
 /* MOBILE */
-
 @media(max-width:991px) {
-
     .funding-table-wrapper {
         overflow-x: auto;
     }
-
 }
 
 /* MOBILE */
-
 @media(max-width:991px) {
-
     .hero-content h1 {
         font-size: 2.4rem;
     }
@@ -939,13 +725,11 @@ body {
     }
 
     .research-section {
-        padding: 70px 0;
+        padding: 40px 0;
     }
-
 }
 
 /* PREVIOUS RESEARCH */
-
 .previous-research-section {
     padding: 80px 0;
 }
@@ -970,44 +754,29 @@ body {
 }
 
 /* CARD */
-
 .research-card {
     background: #ffffff;
-
     border-radius: 28px;
-
     padding: 35px;
-
     height: 100%;
-
     border: 1px solid rgba(15, 23, 42, 0.06);
-
-    box-shadow:
-        0 10px 35px rgba(15, 23, 42, 0.06);
-
+    box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
     transition: 0.35s ease;
 }
 
 .research-card:hover {
     transform: translateY(-6px);
-
-    box-shadow:
-        0 18px 45px rgba(15, 23, 42, 0.10);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.10);
 }
 
 .research-icon {
     width: 65px;
     height: 65px;
-
     border-radius: 18px;
-
-    background:
-        linear-gradient(135deg, #0f4c5c, #22c1c3);
-
+    background: linear-gradient(135deg, #0f4c5c, #22c1c3);
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-bottom: 25px;
 }
 
@@ -1032,18 +801,11 @@ body {
 
 .research-btn {
     border: none;
-
     padding: 12px 24px;
-
     border-radius: 50px;
-
-    background:
-        linear-gradient(135deg, #0f172a, #1d4ed8);
-
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
     color: #ffffff;
-
     font-weight: 600;
-
     transition: 0.3s ease;
 }
 
@@ -1052,7 +814,6 @@ body {
 }
 
 /* MODAL */
-
 .modal-content {
     border: none;
     border-radius: 24px;
@@ -1157,3 +918,98 @@ body {
     margin-bottom: 16px;
     line-height: 1.8;
 }
+
+/* MOBILE SECTION NAV */
+
+.mobile-section-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .mobile-section-nav {
+        display: block;
+
+        position: fixed;
+        top: 90px;
+left: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 999;
+     
+
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(10px);
+
+        padding: 10px 12px;
+
+        border-bottom: 1px solid rgba(15,23,42,0.06);
+    }
+
+.nav-scroll{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    width:100%;
+}
+
+    .nav-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-chip {
+
+        flex: 0 0 auto;
+
+        text-decoration: none;
+
+        padding: 10px 18px;
+
+        border-radius: 50px;
+
+        background: #ffffff;
+
+        color: #334155;
+
+        font-weight: 600;
+        font-size: 0.85rem;
+
+        border: 1px solid rgba(37,99,235,0.08);
+
+        box-shadow:
+            0 6px 18px rgba(15,23,42,0.04);
+            flex-shrink:0;
+    }
+
+    .nav-chip.active {
+
+        background:
+            linear-gradient(
+                135deg,
+                #2563eb,
+                #14b8a6
+            );
+
+        color: #ffffff;
+    }
+
+    .research-tabs {
+        display: none;
+    }
+    .research-section {
+        scroll-margin-top: 120px;
+    }
+
+    .research-modal-section p {
+    color: #475569;
+    line-height: 1.95;
+    font-size: 1rem;
+    margin-bottom: 18px;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
+}
+}
+

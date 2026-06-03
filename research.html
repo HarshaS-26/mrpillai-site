@@ -33,26 +33,17 @@
     <!-- NAVBAR -->
     <div id="navbar"></div>
 
-    <main>
-
-        <!-- HERO -->
-
-        <!--<section class="research-hero">
-
-    <div class="container">
-
-        <div class="hero-content">
-
-            <h1>
-                Research Portfolio
-            </h1>
-
+    <nav class="mobile-section-nav">
+        <div class="nav-scroll">
+            <a href="#awards" class="nav-chip">Awards</a>
+            <a href="#honors" class="nav-chip">Honors</a>
+            <a href="#publications" class="nav-chip">Publications</a>
+            <a href="#patents" class="nav-chip">Patents</a>
+            <a href="#funding" class="nav-chip">Funding</a>
+            <a href="#previous_research" class="nav-chip">Previous Research</a>
         </div>
-
-    </div>
-
-</section>-->
-
+    </nav>
+    <main>
         <!-- TABS -->
 
         <section class="research-tabs">
@@ -61,7 +52,7 @@
 
                 <div class="tabs-wrapper">
 
-                    <a href="#awards" class="research-tab active">
+                    <a href="#awards" class="research-tab">
                         Academic Awards
                     </a>
 
@@ -3865,6 +3856,48 @@
         }
 
     </script>
+
+    <script>
+        const chips = document.querySelectorAll('.nav-chip');
+
+        chips.forEach(chip => {
+
+            chip.addEventListener('click', function () {
+
+                chips.forEach(item =>
+                    item.classList.remove('active')
+                );
+
+                this.classList.add('active');
+
+            });
+
+        });
+    </script>
+<script>
+
+function updateActiveTabs() {
+
+    const hash = window.location.hash || "#awards";
+
+    document
+        .querySelectorAll('.research-tab, .nav-chip')
+        .forEach(item => {
+
+            item.classList.remove('active');
+
+            if (item.getAttribute('href') === hash) {
+                item.classList.add('active');
+            }
+
+        });
+}
+
+window.addEventListener('load', updateActiveTabs);
+
+window.addEventListener('hashchange', updateActiveTabs);
+
+</script>
 </body>
 
 </html>

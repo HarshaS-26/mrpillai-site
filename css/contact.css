@@ -63,6 +63,7 @@ body::before {
 .contact-section {
     padding: 12px 0 50px;
     position: relative;
+    overflow: hidden;
 }
 
 /* GLOW EFFECT */
