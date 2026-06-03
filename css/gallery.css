@@ -174,7 +174,7 @@ main,
 
     border-radius: 24px;
 
-    max-height: 88vh;
+    max-height: 75vh;
 
     object-fit: contain;
 }
@@ -281,4 +281,3 @@ main,
     }
 
 }
-
